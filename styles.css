@@ -1,0 +1,107 @@
+/*  colors  
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+*/
+body {
+  margin: 0;
+  padding: 3rem;
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  text-align: left;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  text-align: center;
+  white-space: pre-line;
+}
+
+img{
+  position: relative;
+  left: 14rem;
+}
+
+footer{
+  margin-top: 3rem;
+}
+
+/*##########    CLASES  ##########*/
+.strong-title {
+  font-weight: 700;
+}
+
+.card {
+  background-color: white;
+  width: 20rem;
+  height: 12rem;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 1rem;
+  box-shadow: 0 5px 10px #9b9b9b;
+}
+
+.card p {
+  text-align: left;
+}
+
+.card-content{
+  padding: 0 1rem 0 1rem;
+}
+
+.red-top {
+  border-top-style: solid;
+  border-top-width: 0.3rem;
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.cyan-top {
+  border-top-style: solid;
+  border-top-color: hsl(180, 62%, 55%);
+}
+
+.orange-top {
+  border-top-style: solid;
+  border-top-color: hsl(34, 97%, 64%);
+}
+
+.blue-top {
+  border-top-style: solid;
+  border-top-color: hsl(212, 86%, 64%);
+}
+
+.centered{
+  position: relative;
+  left: 27rem;
+  margin-top: 2rem;
+}
+
+.left-side{
+  position: absolute;
+  top: 20rem;
+  left: 7rem;
+}
+
+.right-side{
+  position: absolute;
+  top: 20rem;
+  left: 53rem;
+}
